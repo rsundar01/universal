@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/api/items",
+    "headers": {}
+  },
+  "user": {
+    "sub": "auth0|user123",
+    "email": "user@example.com",
+    "permissions": ["read:items", "create:items"],
+    "scope": "read:items create:items"
+  }
+}

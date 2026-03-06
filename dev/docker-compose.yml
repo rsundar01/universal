@@ -1,0 +1,9 @@
+# Dev user DB (SQLite) in Docker - volume for persistence
+services:
+  userdb:
+    build: .
+    container_name: dev-userdb
+    volumes:
+      - ./data:/data
+    # Optional: run schema on start
+    # command: sh -c "sqlite3 /data/userdb.sqlite < /data/../schema.sql && tail -f /dev/null"

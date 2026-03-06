@@ -1,0 +1,17 @@
+# OPA configuration (when running as a server)
+# Used by: opa run --server --config-file config.yaml
+
+services:
+  # Optional: use a remote bundle URL for policy updates
+  # bundle:
+  #   url: https://example.com/bundles/authz
+  #   credentials:
+  #     bearer:
+  #       token: "${BUNDLE_TOKEN}"
+
+labels:
+  app: universal-opa
+  environment: development
+
+decision_logs:
+  console: true

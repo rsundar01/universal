@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "DELETE",
+    "path": "/api/items/1",
+    "headers": {}
+  },
+  "user": {
+    "sub": "auth0|user123",
+    "email": "user@example.com",
+    "permissions": ["read:items"],
+    "scope": "read:items"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "comment": "Optional: role-based data. Expand when you add RBAC (e.g. role -> permissions).",
+  "roles": {}
+}
