@@ -1,4 +1,4 @@
-# Kubernetes + REST API Interview Assessment
+# Universal Test Service
 
 This project demonstrates the Universal Service (a REST API service) deployed on a local Kubernetes cluster.
 
